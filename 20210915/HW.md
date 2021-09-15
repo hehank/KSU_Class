@@ -5,6 +5,9 @@ lang: zh-tw
 ---
 
 # 2021_09_05 homework
+
+[![hackmd-github-sync-badge](https://hackmd.io/qQf0xr51TfKYlh5gEpszEw/badge)](https://hackmd.io/qQf0xr51TfKYlh5gEpszEw)
+
 ### VirtualBox Download Picture
 ![](https://i.imgur.com/9sJfah0.png)
 
@@ -17,3 +20,8 @@ lang: zh-tw
 ### Win10 Search
 ![](https://i.imgur.com/3LCvPsE.png)
 
+### Google Colab Python
+![](https://i.imgur.com/2mTr0iN.png)
+
+### VirtualBox Extension Pack
+![](https://i.imgur.com/PxtEttQ.png)
