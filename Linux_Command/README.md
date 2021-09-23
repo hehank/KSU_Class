@@ -1,1 +1,1 @@
-Here is my Linux translate practice.
+Here is my Linux command translate practice.
