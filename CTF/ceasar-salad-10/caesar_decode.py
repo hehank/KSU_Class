@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 
 # ? 結果沒用到
-# ? 大寫字母集
-# low_alpha = [chr(x) for x in range(97, 123)]
 # ? 小寫字母集
+# low_alpha = [chr(x) for x in range(97, 123)]
+# ? 大寫字母集
 # up_alpha = [chr(x) for x in range(65, 91)]
 
 # ? 密文
 # cipher = '7SJ-IGHM-742Q3W4T'
-cipher = '7sj-ighm-742q3w4t'
+cipher = 'ERTKSOOTCMCHYRAFYLIPL'
 
 # ? 明文
 plain = ''
