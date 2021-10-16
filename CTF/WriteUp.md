@@ -131,7 +131,26 @@ lang: zh-tw
 - 題目：
     ![](https://i.imgur.com/1Y44dTw.png)
 
-- 
+- Linux 查看正在執行的網路服務
+    ```shell
+    netstat -ano
+    ```
+    > -a =>
+    > -n =>
+    > -o => 
+    
+    ![](https://i.imgur.com/cEdnaSK.png)
+
+- 可以看到上圖有一個網路服務的 Local Address 的 port 是 『80』
+    - 『80』port => 也就是 HTTP 的預設 port
+    - 『:』 前的 『0.0.0.0』 => 這台伺服器上的所有 IPv4 的 IP 地址(包括 localhost -> 127.0.0.1)
+    
+- 那我們現在就要想辦法用 Linux 取得 80 port 的網頁內容，就可以看到 Flag 了
+    - 取得網頁內容
+        ```shell
+        curl [選項...] <url>
+        curl 127.0.0.1:80
+        ```
 
 ## Linux CTF 8
 - 題目：
@@ -222,7 +241,9 @@ lang: zh-tw
     ![](https://i.imgur.com/V1NSAi1.png)
 
 - Linux 有一個叫 strings 的工具，會把檔案中可顯示的字串顯示出來，就可以找到 flag 了
+    > 這幾題的 Flag 的開頭是 BreakALLCTF，就可以用 grep 指令直接找 reverse 檔案中的字串
     ```shell
     strings [option(s)] [file(s)]
-    strings reverse
+    grep [選項]… PATTERNS [檔案]…
+    strings reverse | grep "BreakALLCTF"
     ```
