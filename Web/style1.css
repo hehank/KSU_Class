@@ -1,0 +1,15 @@
+.first{
+	text-align: center;
+	color: white;
+}
+
+.second{
+	color: white;
+}
+
+body{
+	background-image: url('https://media.istockphoto.com/photos/dark-concrete-picture-id184601291?b=1&k=20&m=184601291&s=170667a&w=0&h=HffoEtC7p9h3ZlbJ0pI6XJ3uWRY6UnzfBK_1hrMQRKU=');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
