@@ -32,8 +32,11 @@ function factorial_recursive(num, sum)
 	return factorial_recursive(num - 1, sum * num);
 }
 
-var loop_inp_value = document.getElementById("loop").value
-var recu_inp_value = document.getElementById("recursive").value
+var loop_inp_value = document.getElementById("loop").value;
+var recu_inp_value = document.getElementById("recursive").value;
 
 var loop_fac = factorial_loop(loop_inp_value);
 var recu_fac = factorial_recursive(recu_inp_value, recu_inp_value);
+
+document.getElementById("loop_fac_ans").innerHTML = loop_fac;
+document.getElementById("recu_fac_ans").innerHTML = recu_fac;
