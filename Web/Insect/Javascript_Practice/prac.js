@@ -38,5 +38,5 @@ var recu_inp_value = document.getElementById("recursive").value;
 var loop_fac = factorial_loop(loop_inp_value);
 var recu_fac = factorial_recursive(recu_inp_value, recu_inp_value);
 
-document.getElementById("loop_fac_ans").innerHTML = loop_fac;
-document.getElementById("recu_fac_ans").innerHTML = recu_fac;
+document.getElementById("loop_fac_ans").innerHTML = "Answer：" + loop_fac.toString();
+document.getElementById("recu_fac_ans").innerHTML = "Answer：" + recu_fac.toString();
