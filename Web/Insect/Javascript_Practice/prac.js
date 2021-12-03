@@ -31,3 +31,6 @@ function factorial_recursive(num, sum)
 	
 	return factorial_recursive(num - 1, sum * num);
 }
+
+var loop_fac = factorial_loop(3);
+var recu_fac = factorial_recursive(3, 3);
