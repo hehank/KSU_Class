@@ -1,3 +1,3 @@
 # [HTML](./HTML_practice)
-# [CSS](./CSS_practice)
-# [Javascript](./Javascript_practice)
+# [CSS](./CSS_Practice)
+# [Javascript](./Javascript_Practice)
