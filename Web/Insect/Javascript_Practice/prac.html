@@ -4,31 +4,29 @@
 		<meta charset="UTF-8" />
 		<link href="./prac.css"
 								rel="stylesheet" />
-		<script src="prac.js"
-								type="text/javascript"></script>
+		<script src="./prac.js"
+										type="text/javascript"></script>
 		<title>JS_prac</title>
 	</head>
 	<body>
-		<h2>JS write factorial practice：</h2>
-		
+		<h2>JS factorial practice：</h2>
 		<!-- for loop factorial -->
-		<label>
-			Loop factorial (Input a number)：<br>
-			<input type="text" id="loop"><br>
-		</label>
-		<button type="button" onclick="factorial_loop()">
-			get answer
-		</button>
+		<label class="loop_cla">Loop factorial (Please enter a positive integer)： 
+		<br />
+		<input id="loop"
+									type="text" />
+		<br /></label>
+		<button onclick="loop_work();"
+										type="button">get answer</button>
 		<p id="loop_fac_ans">Answer：no answer</p>
-		
 		<!-- Recursive factorial -->
-		<label>
-			Recursive factorial (Input a number)：<br>
-			<input type="text" id="recursive"><br>
-		</label>
-		<button type="button" onclick="factorial_recursive()">
-			get answer
-		</button>
+		<label class="recu_cla">Recursive factorial (Please enter a positive integer)： 
+		<br />
+		<input id="recursive"
+									type="text" />
+		<br /></label>
+		<button onclick="recu_work()"
+										type="button">get answer</button>
 		<p id="recu_fac_ans">Answer：no answer</p>
 	</body>
 </html>
