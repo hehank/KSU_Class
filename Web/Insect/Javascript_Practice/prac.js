@@ -1,5 +1,5 @@
 function factorial_loop(num) {
-    var sum = 1;
+    let sum = 1;
 
     if (num == 0) {
         sum = 0;
@@ -20,9 +20,9 @@ function factorial_loop(num) {
 }
 
 function loop_work() {
-    var loop_inp_value = document.getElementById("loop").value;
+    let loop_inp_value = document.getElementById("loop").value;
 
-    var loop_fac = factorial_loop(loop_inp_value);
+    let loop_fac = factorial_loop(loop_inp_value);
 
     document.getElementById("loop_fac_ans").innerText =
         "Answer：" + loop_fac.toString();
@@ -41,9 +41,9 @@ function factorial_recursive(num, sum) {
 }
 
 function recu_work() {
-    var recu_inp_value = document.getElementById("recursive").value;
+    let recu_inp_value = document.getElementById("recursive").value;
 
-    var recu_fac = factorial_recursive(recu_inp_value, 1);
+    let recu_fac = factorial_recursive(recu_inp_value, 1);
 
     document.getElementById("recu_fac_ans").innerText =
         "Answer：" + recu_fac.toString();
