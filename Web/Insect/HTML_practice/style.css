@@ -9,3 +9,7 @@ td {
 table {
     width: 100%;
 }
+
+.list_style {
+    list-style-type: square;
+}
