@@ -1,4 +1,4 @@
-# index.html
+# [index.html](../index.html)
 ```html=
 <!--宣告檔案類型-->
 <!DOCTYPE html>
@@ -76,7 +76,7 @@
 </html>
 ```
 
-# breakfast.html
+# [breakfast.html](../breakfast.html)
 ```html=
 <!DOCTYPE html>
 <html>
@@ -130,10 +130,55 @@
 </html>
 ```
 
-# fonts.html
+# [fonts.html](../fonts.html)
 ```html=
+<!DOCTYPE html>
+<html lang="en">
+	<!-- 標頭 -->
+	<head>
+		<title>Fonts and Styles</title>
+	</head>
+	<!-- 內容 -->
+	<body>
+		<!-- Paragraph -->
+		<p></p>
+		<p style="font-family: sans-serif; color: red; background: yellow">Sans-Serif Font, Green Text, Yellow Background</p>
+		<p style="font-family: serif">Hello!</p>
+		<p style="font-family: sans-serif">Hello!</p>
+		<p style="font-family: monospace">Hello!</p>
+		<p style="font-family: cursive">Hello!</p>
+		<p style="font-family: fantasy; color: ch">Hello!</p>
+		<p>This sentence contains a 
+		<span style="background-color: yellow">highlighted</span>word.</p>
+	</body>
+</html>
+
 ```
 
-# media.html
+# [media.html](../media.html)
 ```html=
+<!DOCTYPE html>
+<html>
+	<!-- 標頭 -->
+	<head>
+		<title>Audio and Video</title>
+	</head>
+	<!-- 內容 -->
+	<body>
+		<!-- 音樂 -->
+		<h1>Audio</h1>
+		<audio autoplay=""
+									controls="">
+		<source src="media/music.mp3"
+										type="audio/mpeg" />Your browser does not support the audio element.</audio>
+		<!-- 影片 -->
+		<h1>Video</h1>
+		<video controls=""
+									height="240"
+									width="320">
+		<source src="media/breakfast.mp4"
+										type="video/mp4" />Your browser does not support the video tag.</video>
+	</body>
+</html>
+
 ```
