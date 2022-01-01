@@ -152,7 +152,6 @@
 		<span style="background-color: yellow">highlighted</span>word.</p>
 	</body>
 </html>
-
 ```
 
 # [media.html](./media.html)
@@ -180,5 +179,4 @@
 										type="video/mp4" />Your browser does not support the video tag.</video>
 	</body>
 </html>
-
 ```
