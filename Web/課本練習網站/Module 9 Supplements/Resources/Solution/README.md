@@ -1,4 +1,4 @@
-# [index.html](../index.html)
+# [index.html](./index.html)
 ```html=
 <!--宣告檔案類型-->
 <!DOCTYPE html>
@@ -76,7 +76,7 @@
 </html>
 ```
 
-# [breakfast.html](../breakfast.html)
+# [breakfast.html](./breakfast.html)
 ```html=
 <!DOCTYPE html>
 <html>
@@ -130,7 +130,7 @@
 </html>
 ```
 
-# [fonts.html](../fonts.html)
+# [fonts.html](./fonts.html)
 ```html=
 <!DOCTYPE html>
 <html lang="en">
@@ -155,7 +155,7 @@
 
 ```
 
-# [media.html](../media.html)
+# [media.html](./media.html)
 ```html=
 <!DOCTYPE html>
 <html>
