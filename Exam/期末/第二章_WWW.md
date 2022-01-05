@@ -32,13 +32,19 @@ lang: zh-tw
 ### XAMPP HTTPS
 - [XAMPP 設定 HTTPS 開發環境](https://vector.cool/xampp-apache-https-in-localhost/)
 
-## [IP address](https://zh.wikipedia.org/wiki/IP%E5%9C%B0%E5%9D%80)
-- 用途 ==>
-- 組成 ==> 
-- 32 bits
-- 表達方式 ==> dot-decimal notation
-- 120.113.22.33
-- 0.0.0.0- 255.255.255.255
+## [IP Address](https://zh.wikipedia.org/wiki/IP%E5%9C%B0%E5%9D%80)
+- Internet Protocol Address。
+- 用途：
+    - 辨別 Internet 上的每一台機器(不會出現重複 IP)。
+- 組成：
+    - [IPv4](https://zh.wikipedia.org/wiki/IPv4)（32bit）
+        - 四個 8 bit(0 ~ 255) 的數字組成，每組之間用`.`相隔。
+        - 例：8.8.8.8。
+    - [IPv6](https://zh.wikipedia.org/wiki/IPv6)(128bit)
+        - 八個 4 bit的`十六進制`數字組成，每組之間用`:`相隔。
+        - 例：2001:0db8:86a3:08d3:1319:8a2e:0370:7344
+- 表達方式：
+  - IPv4：dot-decimal notation
 
 ## domain name ==> 整個企業
 - google.com網域
