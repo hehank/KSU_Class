@@ -21,6 +21,7 @@ function factorial_loop(num) {
 
 function factorial_recursive(num, sum) {
     if (num == 0) {
+        sum = 0;
         return sum;
     } else if (num < 0) {
         return "Can't understand English?";
