@@ -5,10 +5,22 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+p {
+    font-size: 1.2em;
+}
+
+a {
+    /* 文字底線 */
+    text-decoration: none;
 }
 
 #intro,
-#sub_header,
+#my_webserver,
 #footer {
     /* 邊框弧度 */
     border-radius: 10px;
@@ -18,7 +30,8 @@ body {
 
 #header,
 #menu {
-    background-color: #728ca3;
+    background-color: #d9dcd8;
+    /* 內距：上 右 下 左 */
     padding: 0.3em 0.5em 0.3em 0.5em;
 }
 
@@ -26,7 +39,7 @@ body {
     display: flex;
     justify-content: space-around;
     /* 外距 */
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
     /* 邊框弧度 */
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -34,21 +47,29 @@ body {
 
 #intro {
     background-color: #f4d993;
+    /* Block 置中 */
+    margin: 0 auto;
+    /* 設定寬度 */
+    width: 85%;
 }
 
-#sub_header {
+#my_webserver {
     background-color: #b96702;
+    /* Block 置中 */
+    margin: 0 auto;
     /* 外距 */
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* 設定寬度 */
+    width: 85%;
 }
 
 #container {
     display: flex;
     justify-content: space-around;
     /* 外距 */
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 2em;
 }
 
 #content_1,
@@ -80,16 +101,27 @@ body {
 
 #footer {
     text-align: center;
-    /* clear: both; */
     background-color: #8c7462;
+    /* Block 置中 */
+    margin: 0 auto;
+    /* 外距 */
+    margin-bottom: 2em;
+    /* 設定寬度 */
+    width: 85%;
 }
 
 .content_title,
 .header_title,
 .footer_title,
-.sub_header_title,
+.my_webserver_title,
 .intro_title {
     text-align: center;
+}
+
+.intro_title,
+.my_webserver_title {
+    font-weight: "900";
+    font-size: 2.3em;
 }
 
 .header_title {
@@ -97,10 +129,8 @@ body {
     font-size: 4em;
 }
 
-.intro_title,
-.sub_header_title {
-    font-weight: "900";
-    font-size: 2em;
+.content_title {
+    font-size: 1.35em;
 }
 
 .list_style {
