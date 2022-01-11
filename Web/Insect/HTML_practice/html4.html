@@ -26,10 +26,42 @@
 		<section id="graphics">
 			<!-- <canvas> -->
 			<h2>My Canvas</h2>
-			<canvas height="100"
+			<canvas height="200"
 											id="myCanvas"
+											style="border: 5px solid #eb1b1b"
 											width="200"></canvas>
+			<hr />
 			<!-- <svg> -->
+			<h2>My SVG Image</h2>
+			<!-- circle -->
+			<h4>Circle</h4>
+			<svg height="150"
+								id="circle"
+								width="200">
+				<circle cx="70"
+												cy="70"
+												fill="blue"
+												r="50"
+												stroke="black"
+												stroke-width="5" />
+			</svg>
+			<!-- star -->
+			<h4>Star</h4>
+			<svg height="200"
+								width="200">
+				<polygon points="100,10 40,198 190,78 10,78 160,198" />
+			</svg>
+			<!-- square -->
+			<h4>Square</h4>
+			<svg height="200"
+								width="200">
+				<rect height="150"
+										rx="0"
+										ry="0"
+										width="150"
+										x="20"
+										y="20" />
+			</svg>
 		</section>
 		<hr />
 	</body>
