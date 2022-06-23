@@ -90,9 +90,6 @@ def encode(cipher, key):
     return plain
 
 
-# cipher = '7sj-ighm-742q3w4t'
-cipher = "7sj-ighm-742q3w4t"
-key = 16
-
-# print(encode(cipher, key))
-print(decode(cipher, key))
+cipher = '7sj-ighm-742q3w4t'
+key = 20
+print(encode(cipher, key))
