@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<script src="./script1.js"
+										type="text/javascript"></script>
+		<script src="./script2.js"
+										type="text/javascript"></script>
+		<link href="./JS1.css"
+								rel="stylesheet"
+								type="text/css" />
+		<link href="./JS2.css"
+								rel="stylesheet"
+								type="text/css" />
+		<title>JS_prac</title>
+	</head>
+	<body>
+		<h2>JS factorial practice：</h2>
+		<!-- for loop factorial -->
+		<label class="loop_cla">Loop factorial (Please enter a positive integer)： 
+		<br />
+		<input id="loop"
+									type="text" />
+		<br /></label>
+		<button onclick="loop_work();"
+										type="button">get answer</button>
+		<p id="loop_fac_ans">Answer：no answer</p>
+		<!-- Recursive factorial -->
+		<label class="recu_cla">Recursive factorial (Please enter a positive integer)： 
+		<br />
+		<input id="recursive"
+									type="text" />
+		<br /></label>
+		<button onclick="recu_work()"
+										type="button">get answer</button>
+		<p id="recu_fac_ans">Answer：no answer</p>
+	</body>
+</html>

@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* column => 行 */
+/* row => 列 */
+
+html {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+}
+
+li {
+    line-height: 40px;
+}
+
+body {
+    width: auto;
+    height: auto;
+    /* 讓 sidebar 貼齊邊邊 */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 220px 220px 220px 220px 220px 0.5fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 370px 370px 370px 370px 370px 0.5fr 0.5fr;
+    grid-template-areas:
+        "side1 . . . . . . . side2 side2"
+        "side1 . . main main main . . side2 side2"
+        "side1 . content content content content content . side2 side2"
+        "side1 . content content content content content . side2 side2"
+        "side1 . content content content content content . side2 side2"
+        "side1 . content content content content content . side2 side2"
+        "side1 . content content content content content . side2 side2"
+        "side1 . . . . . . . side2 side2"
+        "side1 . . footer footer footer . . side2 side2";
+}
+
+.head {
+    /* ? Grid */
+    grid-area: main;
+
+    text-align: center;
+    color: Green;
+
+    border-style: double;
+    /* ? 邊框寬度：上 右 下 左 */
+    border-width: 20px 20px 0px 20px;
+    border-color: rgb(23, 82, 126);
+
+    /* ? 邊框弧度 */
+    border-radius: 70px 70px 70px 70px;
+}
+
+.head h1 {
+    font-size: 70px;
+}
+
+.right_bg {
+    background-image: url("../img/family_background.png");
+    grid-area: side2;
+
+    /* ? 邊框弧度 */
+    border-radius: 30px 0px 0px 30px;
+}
+
+.aside_bar {
+    text-align: center;
+    position: fixed;
+    padding-right: 3em;
+    font-size: 1em;
+    background: #4d49a2;
+
+    /* ? 左上 右上 右下 左下 */
+    border-radius: 0px 0px 40px 0px;
+    box-shadow: 7px 9px 20px 3px gray;
+
+    /* ? grid */
+    grid-area: side1;
+}
+
+.right_bg {
+    background-image: url("../img/family_background.png");
+    grid-area: side2;
+}
+
+.menu {
+    /* position: relative; */
+    /* text-align: left; */
+    font-weight: bold;
+    text-align: center;
+}
+
+#sidebar.active {
+    margin-left: -100px;
+}
+
+#sublist {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.collapse-btn {
+    position: relative;
+    top: 1px;
+    left: 105px;
+    background: #4d49a2;
+    color: rgb(255, 255, 255);
+    /* ? 無邊框 */
+    border: none;
+}
+
+.collapse-btn:hover {
+    background: rgba(46, 40, 148, 0.843);
+    transition: 0.3s;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    line-height: 3.5em;
+    padding-left: 3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    /* 縮寫 =>  transition: transition-property | transition-duration | transition-timing-function | transition-delay;
+    transition-property -> 定義哪些 CSS properties 會被轉場效果影響
+    transition-duration -> 定義轉場所花費的時間
+    transition-timing-function -> 設定轉場時所依據的貝茲曲線
+    transition-delay -> 定義多久之後開始發生轉場 */
+    /* transition: all ease-out 300ms; */
+}
+
+.content {
+    /* ? Grid */
+    grid-area: content;
+
+    /* ? padding：上 右 下 左 */
+    padding: 100px 100px 0px 100px;
+
+    /* ? border */
+    border-style: inset;
+    border-width: 0px 12px 0px 12px;
+    border-color: rgb(23, 82, 126);
+}
+
+.content h2 {
+    color: rgb(196, 138, 30);
+    font-weight: 550;
+}
+
+.tail {
+    grid-area: footer;
+    text-align: center;
+}
