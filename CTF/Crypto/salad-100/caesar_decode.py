@@ -9,11 +9,10 @@
 
 # ? 密文
 # cipher = '7SJ-IGHM-742Q3W4T'
-<<<<<<<< HEAD:CTF/Crypto/salad-100/caesar_decode.py
+
 cipher = 'xyzqc\{t3_qelrdeq_t3_k33a3a_lk3_lc_qe3p3\}'
-========
+
 cipher = 'ERTKSOOTCMCHYRAFYLIPL'
->>>>>>>> 117a5b966df0837582a277bdeb24a1bf65b1024e:CTF/ceasar-salad-10/caesar_decode.py
 
 # ? 明文
 plain = ''
