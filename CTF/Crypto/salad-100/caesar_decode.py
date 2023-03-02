@@ -9,7 +9,7 @@
 
 # ? 密文
 # cipher = '7SJ-IGHM-742Q3W4T'
-cipher = '7sj-ighm-742q3w4t'
+cipher = 'xyzqc\{t3_qelrdeq_t3_k33a3a_lk3_lc_qe3p3\}'
 
 # ? 明文
 plain = ''
@@ -18,7 +18,7 @@ plain = ''
 for i in range(1, 101):
     for j in cipher:
         # ? 判斷是否為英文字母
-        if (not(j.isalpha())):
+        if (not (j.isalpha())):
             plain += j
             continue
         # ? 判斷大寫字母
