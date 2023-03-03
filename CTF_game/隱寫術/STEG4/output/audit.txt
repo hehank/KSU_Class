@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri Mar  3 16:31:38 2023
+Invocation: foremost carter.jpg 
+Output directory: /home/hankhe/Practice/KSU_Class/CTF_game/隱寫術/STEG4/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: carter.jpg
+Start: Fri Mar  3 16:31:38 2023
+Length: 189 KB (194188 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	     136 KB 	          0 	 
+1:	00000273.jpg 	      52 KB 	     140147 	 
+Finish: Fri Mar  3 16:31:38 2023
+
+2 FILES EXTRACTED
+	
+jpg:= 2
+------------------------------------------------------------------
+
+Foremost finished at Fri Mar  3 16:31:38 2023
