@@ -90,6 +90,8 @@ def encode(cipher, key):
     return plain
 
 
-cipher = '7sj-ighm-742q3w4t'
-key = 20
-print(encode(cipher, key))
+cipher = 'cvqBeqacRtqazEigwiAobxrKobxrAobxrLwgk8Lwgk8CrtuiTzahfFreqc{bnjrZwgk8Ikgd4Pj85ePgb_e_rwqr7fvbmHjklo3tews_hmkogooyf0vbnk0ii87Drfgh_n kiwutfb0ghk9ro987k5tfb_hjiouo087ptfcv}'
+# key = 50
+
+for key in range(1, 100):
+    print(decode(cipher, key))
