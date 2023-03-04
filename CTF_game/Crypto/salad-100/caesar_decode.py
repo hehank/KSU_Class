@@ -8,11 +8,11 @@
 # up_alpha = [chr(x) for x in range(65, 91)]
 
 # ? 密文
-# cipher = '7SJ-IGHM-742Q3W4T'
+cipher = '7SJ-IGHM-742Q3W4T'
 
-cipher = 'xyzqc\{t3_qelrdeq_t3_k33a3a_lk3_lc_qe3p3\}'
+# cipher = 'xyzqc\{t3_qelrdeq_t3_k33a3a_lk3_lc_qe3p3\}'
 
-cipher = 'ERTKSOOTCMCHYRAFYLIPL'
+# cipher = 'ERTKSOOTCMCHYRAFYLIPL'
 
 # ? 明文
 plain = ''
